@@ -13,6 +13,10 @@
 		ABAE1ADC2A389BC8003EA994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAE1ADA2A389BC8003EA994 /* Main.storyboard */; };
 		ABAE1ADE2A389BC9003EA994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABAE1ADD2A389BC9003EA994 /* Assets.xcassets */; };
 		ABAE1AE12A389BC9003EA994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAE1ADF2A389BC9003EA994 /* LaunchScreen.storyboard */; };
+		ABAE1B192A4181C4003EA994 /* DeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAE1B182A4181C4003EA994 /* DeliveryViewController.swift */; };
+		ABAE1B1B2A418310003EA994 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAE1B1A2A418310003EA994 /* PaymentViewController.swift */; };
+		ABAE1B1D2A419D6A003EA994 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAE1B1C2A419D6A003EA994 /* ConfirmViewController.swift */; };
+		ABAE1B202A42FBA8003EA994 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAE1B1F2A42FBA8003EA994 /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		ABAE1ADD2A389BC9003EA994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABAE1AE02A389BC9003EA994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABAE1AE22A389BC9003EA994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABAE1B182A4181C4003EA994 /* DeliveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryViewController.swift; sourceTree = "<group>"; };
+		ABAE1B1A2A418310003EA994 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		ABAE1B1C2A419D6A003EA994 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		ABAE1B1F2A42FBA8003EA994 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		ABAE1AD32A389BC8003EA994 /* checkout */ = {
 			isa = PBXGroup;
 			children = (
+				ABAE1B1E2A42FB93003EA994 /* Model */,
 				ABAE1AD42A389BC8003EA994 /* AppDelegate.swift */,
 				ABAE1AD62A389BC8003EA994 /* SceneDelegate.swift */,
 				ABAE1AD82A389BC8003EA994 /* ViewController.swift */,
 				ABAE1ADA2A389BC8003EA994 /* Main.storyboard */,
+				ABAE1B1C2A419D6A003EA994 /* ConfirmViewController.swift */,
+				ABAE1B1A2A418310003EA994 /* PaymentViewController.swift */,
+				ABAE1B182A4181C4003EA994 /* DeliveryViewController.swift */,
 				ABAE1ADD2A389BC9003EA994 /* Assets.xcassets */,
 				ABAE1ADF2A389BC9003EA994 /* LaunchScreen.storyboard */,
 				ABAE1AE22A389BC9003EA994 /* Info.plist */,
 			);
 			path = checkout;
+			sourceTree = "<group>";
+		};
+		ABAE1B1E2A42FB93003EA994 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABAE1B1F2A42FBA8003EA994 /* Users.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +160,11 @@
 			files = (
 				ABAE1AD92A389BC8003EA994 /* ViewController.swift in Sources */,
 				ABAE1AD52A389BC8003EA994 /* AppDelegate.swift in Sources */,
+				ABAE1B1B2A418310003EA994 /* PaymentViewController.swift in Sources */,
+				ABAE1B1D2A419D6A003EA994 /* ConfirmViewController.swift in Sources */,
+				ABAE1B192A4181C4003EA994 /* DeliveryViewController.swift in Sources */,
 				ABAE1AD72A389BC8003EA994 /* SceneDelegate.swift in Sources */,
+				ABAE1B202A42FBA8003EA994 /* Users.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
